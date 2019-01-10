@@ -1,3 +1,3 @@
-file(GLOB_RECURSE SRCFILES *.cpp)
+add_executable(tests test.cpp)
 
-add_executable(tests ${SRCFILES})
+add_executable(mallocinfo mallocinfo.cpp)
